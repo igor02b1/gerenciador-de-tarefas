@@ -1,0 +1,37 @@
+.container_form{
+    background-color: #450b53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 60px
+}
+
+.form input, select{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border:0;
+    border: 1px solid #450b53;
+    padding: 0 10px;
+}
+
+.form button{
+    height: 30px;
+    width: 100%;
+    background-color: #450b53;
+    border-radius: 5px;
+    color: #fff;
+}
